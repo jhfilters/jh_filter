@@ -1,0 +1,280 @@
+[Adblock Plus 2.0]
+! Title: jh_filter
+! Homepage: https://jhfilters.github.io/jh_filter/
+! License: https://jhfilters.github.io/jh_filter/#license
+! Expires: 1 day
+! Version: 10.00.65
+
+! ------------------------------
+! ----- Twitter Faster DNS -----
+! ------------------------------
+104.76.97.12 pbs.twimg.com
+104.76.97.13 video.twimg.com
+
+! ---------------------------
+! ----- Allowed Domains -----
+! ---------------------------
+@@||res-creatives.maio.jp$important
+@@||media-api.maio.jp$important
+@@||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$script,domain=search.danawa.com|m.danawa.com|m.clien.net
+
+! -------------------------------
+! ----- Tracking Protection -----
+! -------------------------------
+||analytics.twitter.com^$third-party
+||cdn.api.twitter.com/*/urls/count.json$third-party
+||twitter.com/i/jot
+
+! ---------------
+! ----- ads -----
+! ---------------
+! [ KakaoTalk ]
+||ad-content.moment.kakao.com^
+||kyson.ad.daum.net^
+||webid.ad.daum.net^
+||talkchannel-log.kakao.com^
+||stat.tiara.kakao.com^
+||track.tiara.kakao.com^
+||track.tiara.daum.net^
+||aem-collector.daumkakao.io^
+||aem-collector-prod-ytlsojie.kgslb.com^
+
+ruliweb.com##[id^=adsense]
+ruliweb.com##[id^=ad_]
+##div[class^="revenue_unit_item adfit"]
+
+||mud-kage.kakao.co.kr^
+||item.kakao.com^
+||sb-talk.kakao.com^
+@@||ac-sb-talk.kakao.com^$document
+||analytics.ad.daum.net^
+||kakaogame.com
+@@||console.ncloud.com^$important,document,~extension
+@@||player.twitch.tv^$important,document,~extension
+@@||nid.naver.com^$important,document,~extension
+@@||lcs.naver.com^
+naver.com#%#if (window.addEventListener) { window.addEventListener('DOMContentLoaded', function() { window.clickcr = window.nclk = function() { }; } ); }
+play.afreecatv.com###contbox > div.videobox:nth-child(2) > div.htmlplayer_wrap:first-child > div.htmlplayer_content > a.adcon-area:nth-child(11)
+@@||afreecatv.com#%#jquery.min.js
+tvdaily.asiae.co.kr###STATICMENU2
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=kakaotv.daum.net,third-party
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tv.kakao.com,third-party
+@@||bidder.criteo.com^$domain=api.dable.io,third-party
+||adserver.rockwell.kakao.com^$important
+||tg.kakao.com^$app=com.kakao.talk
+@@//www.interpark.com^$document
+||mud-kage.kakao.co.kr/dn^$app=KakaoTalk.exe
+@@//online.uplussave.com^$document
+@@||store.musinsa.com^$important,document,~extension
+@@||riotgames.com^
+@@||leagueoflegends.com^
+
+||graph.facebook.com
+||adservice.google.co.kr
+||us-west-2-prod-attribution-gate-general.attribution.singular.net
+||www.google-analytics.com
+||ad.cauly.co.kr
+||googleads.g.doubleclick.net
+||gwk.adlibr.com
+||gwx.adlibr.com
+||xconf.cauly.co.kr
+||firebaseremoteconfig.googleapis.com
+||fcmtoken.googleapis.com
+||ssl.google-analytics.com
+||firebaselogging-pa.googleapis.com
+||display.ad.daum.net
+||e.crashlytics.com
+||settings.crashlytics.com
+||click.tiara.daum.net^
+||stat.tiara.daum.net^
+||app.launchdarkly.com^
+||app-measurement.com^
+||csi.gstatic.com^
+||mimgnews.pstatic.net^
+||ad.shallweadcorp.com:10700^
+||api-ao.adison.co^
+||decide.mixpanel.com^
+||staticxx.facebook.com^
+||tg.kakao.com^$app=com.kakao.talk
+||ace.naver.com^
+||gfp.veta.naver.com^
+||m.veta.naver.com.nheos.com
+||ad.naver.com/fxshow^
+
+@@||kauth.kakao.com
+@@||live.pcr.kakaogame.com
+@@||talk-pilsner.kakao.com
+@@||katalk.kakao.com
+@@||web-data-game.kakaocdn.net
+@@||app.dcinside.com
+@@||json2.dcinside.com.wtxcdn.com
+@@||dcimg5.dcinside.com
+@@||app-measurement.com
+@@||cus-zinny3.kakaogames.com
+@@||patch.pcr.kakaogame.com
+@@||upload.dcinside.com
+@@||json2.dcinside.com
+@@||session-zinny3.game.kakao.com
+@@||infodesk-zinny3.game.kakao.com
+@@||openapi-zinny3.game.kakao.com
+@@||kapi.kakao.com
+@@||patch.pcr.kakaogame.com.service3.gscdn.net
+@@||pcr-cdn.s3-ap-northeast-2.amazonaws.com
+@@||p20-buy.itunes.apple.com
+@@||p31-keyvalueservice.icloud.com
+@@||www.apple.com
+@@||gsp64-ssl.ls.apple.com
+@@||gateway.icloud.com
+@@||s3-r-w.ap-northeast-2.amazonaws.com
+@@||dcimg3.dcinside.co.kr
+@@||wstatic.dcinside.com
+@@||dcid.dcinside.com
+@@||lv-pcr-api-alb-242144366.ap-northeast-2.elb.amazonaws.com
+@@||dcimg7.dcinside.co.kr
+@@||p20-buy.itunes-apple.com.akadns.net
+@@||www.icloud.com
+@@||kgp-live-elb-openapi-zinny3-1965753367.ap-northeast-2.elb.amazonaws.com
+@@||kgp-live-alb-infodesk-zinny3-647487587.ap-northeast-2.elb.amazonaws.com
+@@||kapi.gl.kakao.com
+@@||config.uca.cloud.unity3d.com
+@@||remote-config-proxy-prd.uca.cloud.unity3d.com
+@@||kgp-live-alb-session-zinny3-2104471325.ap-northeast-2.elb.amazonaws.com
+@@||sdk-api-v1.singular.net
+@@||e4478.a.akamaiedge.net
+@@||us.patch.battle.net
+@@||cdp.cloud.unity3d.com
+@@||kr.patch.battle.net
+@@||telemetry-in.battle.net
+@@||iphone-ld.apple.com
+@@||kr.battle.net
+@@||itunes.apple.com
+@@||us.api.blizzard.com
+@@||kr.launcher.battle.net
+@@||nydus.battle.net
+@@||kr.actual.battle.net
+@@||thind-gke-usc.prd.data.corp.unity3d.com
+
+@@||www.netflix.com^$important,document
+@@||dadispapi.gmarket.co.kr^$domain=escrow.gmarket.co.kr
+@@||search.wemakeprice.com$elemhide,content,urlblock
+@@||buy.11st.co.kr/pay/OrderInfoAction.tmall$document
+||filecast.co.kr/html/move^
+
+google.com##DIV[id="tadsb"]
+google.com##DIV[id$="tvcap"]
+google.co.kr##DIV[id="tadsb"]
+google.co.kr##DIV[id$="tvcap"]
+m.naver.com###HOME_AD
+coupang.com##li[class="search-product search-product__ad-badge"]
+coupang.com##div[class="srp-top-banner-container"]
+coupang.com###sdpAdsBottom
+coupang.com##div[id="sdp-bottom-banner"]
+coupang.com##*[class="sdp-mid-banner sdp-mid-banner-191126 banner-link"]
+cafe.naver.com##DIV[class^="ArticleFormBanner"]
+cafe.naver.com##DIV[class^="banner_add"]
+naver.com##DIV[class="ct_box area_bnr"]
+stock.naver.com##div[class="bnr_image _home_reward_wrapper"]
+comic.naver.com##DIV[class="item_area"]
+op.gg##DIV[class="life-owner LifeOwnerSummonerTopCenter"]
+ppomppu.co.kr##div[class="topSub-nav"]
+ppomppu.co.kr##div[class*="google-ad"]
+ppomppu.co.kr##*[id*="div-gpt-ad-"]
+//cdn.ppomppu.co.kr/zboard/data3/banner/bbs_top
+namu.wiki#@#div[id^="chika"] 
+danawa.com###mainAdPoint
+danawa.com###mainAdReader
+danawa.com###ebayPowerClickBottomArea
+danawa.com###powerClickListArea
+danawa.com###mainTop
+danawa.com##DIV[class="ad_star ad_section"]
+danawa.com##DIV[class^="ad_caster"]
+danawa.com##DIV[class="bor_mt10 dpg_power_link"]
+danawa.com##DIV[class="banner_area h_type"]
+danawa.com##DIV[class^="goods-list__ad"]
+danawa.com##DIV[class^="ad_reader"]
+danawa.com##.ad_nvista, .main_ad_prodlist, .ad_section
+danawa.com##div[id="powerShoppingArea"]
+*.clien.net##div#hongboInfoList
+*.clien.net##div#naverAd
+*.clien.net##DIV[class$="_top_ad"]
+*.clien.net##DIV[class$="_bottom_ad"]
+*.clien.net##DIV[class$="_center_ad"]
+*.clien.net##DIV[class="google_search_ad"]
+*.clien.net###n_shop_1
+*.clien.net###n_main_shop_1_tgtLREC
+cooln.net##div#logo_top3
+cooln.net##div#srolling
+cooln.net##DIV[class="tae"]
+cooln.net##DIV[class="tab"]
+fmkorea.com##DIV[class="adpost adpost_search "]
+dcinside.com##ul.detail-top-lst
+m.dcinside.com##div#adbay_floatingid
+m.dcinside.com##div.adv-group
+m.dcinside.com##div.adv-groupin
+m.dcinside.com##div.adv-groupno
+m.dcinside.com##div.adv-grouptop
+m.dcinside.com##div.detail-top-lnk>a[href^="http://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text"]
+m.dcinside.com##h3.power-tit
+m.dcinside.com##ul.all-comment-lst>li.comment:not([id])
+m.dcinside.com##ul.power-lst
+auction.co.kr##DIV[class^="ad_area"]
+auction.co.kr##*[class^="order_btm_ad"]
+auction.co.kr##DIV[class^="uxc-bn-add-wrap"]
+auction.co.kr##DIV[class^="uxa-spon"]
+auction.co.kr##DIV[class^="component component--sponsor_link"]
+auction.co.kr##DIV[class^="promo module_slot"]
+auction.co.kr##DIV[class^="hp_side_banner"]
+auction.co.kr##DIV[class^="hp_bot_ad"]
+auction.co.kr##DIV[class^="side-ads"]
+auction.co.kr##div[class="uxa-banner"]
+auction.co.kr##div[class="uxc-cpnly v2"]
+enuri.com##DIV[class="sponsor_link"]
+enuri.com##DIV[class="comm_ad ad_powerlink"]
+enuri.com##div[class="comm_ad ad_powerlink lp-ad--powerlink"]
+enuri.com##div[id="midBanner"]
+enuri.com##li[class="ad-openad--list"]
+enuri.com##div[class="comm_ad ad_powerclick lp-ad--openad bottom"]
+encar.com##[class^="list_adarea"]
+fomos.kr##DIV[class^="banner_area"]
+fomos.kr##*[class^="sub_article"]
+fomos.kr##div[class$="_banner"]
+fomos.kr##div[class$="banner_rib jq_banner_rib"]
+fomos.kr##div[class="bottom_content"]
+fomos.kr##li[class="no_left"]
+fomos.kr##li[class="no_top"]
+fomos.kr#$#.related_area { height: auto!important; margin-bottom: 45%; }
+card-gorilla.com##div.q-dialog.fullscreen.no-pointer-events:last-child > div.q-dialog__inner.flex.no-pointer-events.q-dialog__inner--minimized.q-dialog__inner--left.fixed-left.items-center > div
+play.afreecatv.com###ad_video
+play.afreecatv.com##.text_output
+play.afreecatv.com##.promotion_area
+play.afreecatv.com##.promotion_area_left
+play.afreecatv.com##.promotion_area_right
+vod-player.afreecatv.com/creatives/media/*
+||deapi.afreecatv.com^$important
+algumon.com##*[class^="post-other"]
+interpark.com##div[class="powerlinkWrapper"]
+gmarket.co.kr##div[class="box__component box__component-sponsor-link"]
+gmarket.co.kr##div[class="banner ng-scope"]
+gmarket.co.kr##div[class="ad_event ng-scope"]
+gmarket.co.kr##div[class="box__plcc-banner"]
+twidouga.net##div[class="item item_w360"]
+sendvid.com##:xpath(//*[@id="video-js-video"]/a[3])
+coinpan.com##div[class="gpe_pm_topban_code"]
+coinpan.com##div[class="scban_wrap"]
+coinpan.com##div[class="section_wrap"]
+coinpan.com##div[class="xe_content xe-widget-wrapper "]
+rocketpunch.com##div[id="section-banner"]
+rocketpunch.com##div[id="search-bottom-banner"]
+rocketpunch.com##div[class="ui segment new-app-download-in-list"]
+
+! ------------------------------
+! ----- Global Site -----
+! ------------------------------
+##div[id="jwplayer-ad"]
+##div[class="fp-logo text top fade"]
+
+! ------------------------------
+! ----- Personal Block -----
+! ------------------------------
+||fomos.kr/user/captcha^
+||ext.fmkorea.com/addons/highslide/highslide/graphics/zoomin.cur
