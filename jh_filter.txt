@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.65
+! Version: 10.00.66
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -263,6 +263,9 @@ coinpan.com##div[class="gpe_pm_topban_code"]
 coinpan.com##div[class="scban_wrap"]
 coinpan.com##div[class="section_wrap"]
 coinpan.com##div[class="xe_content xe-widget-wrapper "]
+coinpan.com###container > div.content:nth-child(5) > section.flatBoard:last-child > div.m-list.m-element:nth-child(11) > ul.list > li:nth-child(6)
+coinpan.com###container > div.content:nth-child(5) > section.flatBoard:last-child > center:nth-child(13)
+coinpan.com###container > div.content:nth-child(5) > section.flatBoard:last-child > div.title-wrap.clearfix:nth-child(3)
 rocketpunch.com##div[id="section-banner"]
 rocketpunch.com##div[id="search-bottom-banner"]
 rocketpunch.com##div[class="ui segment new-app-download-in-list"]
