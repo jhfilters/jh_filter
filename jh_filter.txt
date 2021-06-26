@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.69
+! Version: 10.00.70
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -278,4 +278,3 @@ rocketpunch.com##div[class="ui segment new-app-download-in-list"]
 ! ----- Personal Block -----
 ! ------------------------------
 ||fomos.kr/user/captcha^
-||ext.fmkorea.com/addons/highslide/highslide/graphics/zoomin.cur
