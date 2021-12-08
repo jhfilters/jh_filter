@@ -3,13 +3,15 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.70
+! Version: 10.00.71
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
 ! ------------------------------
 104.76.97.12 pbs.twimg.com
 104.76.97.13 video.twimg.com
+
+
 
 ! ---------------------------
 ! ----- Allowed Domains -----
@@ -207,16 +209,6 @@ cooln.net##div#srolling
 cooln.net##DIV[class="tae"]
 cooln.net##DIV[class="tab"]
 fmkorea.com##DIV[class="adpost adpost_search "]
-dcinside.com##ul.detail-top-lst
-m.dcinside.com##div#adbay_floatingid
-m.dcinside.com##div.adv-group
-m.dcinside.com##div.adv-groupin
-m.dcinside.com##div.adv-groupno
-m.dcinside.com##div.adv-grouptop
-m.dcinside.com##div.detail-top-lnk>a[href^="http://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text"]
-m.dcinside.com##h3.power-tit
-m.dcinside.com##ul.all-comment-lst>li.comment:not([id])
-m.dcinside.com##ul.power-lst
 auction.co.kr##DIV[class^="ad_area"]
 auction.co.kr##*[class^="order_btm_ad"]
 auction.co.kr##DIV[class^="uxc-bn-add-wrap"]
