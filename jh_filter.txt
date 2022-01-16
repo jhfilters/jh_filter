@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.75
+! Version: 10.00.76
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
