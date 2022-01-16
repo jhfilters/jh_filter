@@ -253,6 +253,7 @@ gmarket.co.kr##div[class="box__component box__component-sponsor-link"]
 gmarket.co.kr##div[class="banner ng-scope"]
 gmarket.co.kr##div[class="ad_event ng-scope"]
 gmarket.co.kr##div[class="box__plcc-banner"]
+gmarket.co.kr##div[class="box__head-ad js-impressionable"]
 twidouga.net##div[class="item item_w360"]
 sendvid.com##:xpath(//*[@id="video-js-video"]/a[3])
 coinpan.com##div[class="gpe_pm_topban_code"]
