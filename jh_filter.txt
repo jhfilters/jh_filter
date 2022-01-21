@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.78
+! Version: 10.00.79
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -249,6 +249,7 @@ vod-player001.afreecatv.com/v101/hls/creatives/media/*
 vod-player002.afreecatv.com/v101/hls/creatives/media/*
 vod-player003.afreecatv.com/v101/hls/creatives/media/*
 ||deapi.afreecatv.com^$important
+afreecatv.com##div[class^="adballoon_"]
 algumon.com##*[class^="post-other"]
 interpark.com##div[class="powerlinkWrapper"]
 gmarket.co.kr##div[class="box__component box__component-sponsor-link"]
