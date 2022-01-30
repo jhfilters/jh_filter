@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.81
+! Version: 10.00.82
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -182,9 +182,6 @@ ppomppu.co.kr##div[class*="google-ad"]
 ppomppu.co.kr##*[id*="div-gpt-ad-"]
 //cdn.ppomppu.co.kr/zboard/data3/banner/bbs_top
 namu.wiki#@#div[id^="chika"]
-namu.wiki##div[id="Ip01CRIQ3"]
-namu.wiki##div[id="tapx5zeKD"]
-namu.wiki##div[id="C6VuLPLqL"]
 danawa.com###mainAdPoint
 danawa.com###mainAdReader
 danawa.com###ebayPowerClickBottomArea
