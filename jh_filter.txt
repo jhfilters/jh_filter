@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.83
+! Version: 10.00.84
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -147,6 +147,7 @@
 ||wiki.dcinside.com/main_top_realclick_banner.php^$domain=wiki.dcinside.com
 ||wstatic.dcinside.com/ad/
 ||wstatic.dcinside.com/gallery/top/ad_top/
+||ir.joins.com^$domain=dcinside.com
 ! Fmkorea
 ||fmkorea.com/_adpage/$domain=fmkorea.com
 ||fmkorea.com/_loader/loader.php^$domain=fmkorea.com
