@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.84
+! Version: 10.00.85
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -88,6 +88,7 @@
 ||wrd.naver.com^
 ||lcs.naver.com^
 ||wrd.naver.com^
+||external.impression-neo.naver.com^$app=kr.co.quicket
 ! Web
 ||ad.nbms.naver.com^
 ||ad.news.naver.com^
