@@ -250,6 +250,8 @@ namu.wiki#?#article > div:matches-attr("/data-v-/"):has(> div:matches-attr("/dat
 namu.wiki#?#div:matches-attr("/data-v-/"):has(> div > div > div > div:matches-attr("/data-v-/"):matches-css(justify-content: space-between) > img[src*="/w.namu.la/s/"]:nth-ancestor(4))
 namu.wiki#?#div[class]:matches-attr("/data-v-/") > div:matches-attr("/data-v-/"):not([class]):not(:has(> a[href^="/w/"]:matches-attr("/data-v-/"))):not(:has(> a:matches-attr("/data-v-/"))):not(:contains(/.{1,}/i))
 namu.wiki##article > h1 + p ~ div[id][class]
+namu.wiki#@?#article div:has(a[href*="/w/%EB%B6%84%EB%A5%98:"]) ~ div:has(div.wiki-paragraph) ~ div:has(img[src*="w.namu.la"])
+namu.wiki###ZMC20EkSV > article > div:nth-child(7) > div:nth-child(6) > div > div > div > div > div > div:nth-child(9)
 
 ! [ Community ]
 ! Clien
@@ -575,6 +577,7 @@ gmarket.co.kr##div[class="banner ng-scope"]
 gmarket.co.kr##div[class="ad_event ng-scope"]
 gmarket.co.kr##div[class="box__plcc-banner"]
 gmarket.co.kr##div[class="box__head-ad js-impressionable"]
+gmarket.co.kr##div[class="adlinks_sponsor"]
 twidouga.net##div[class="item item_w360"]
 sendvid.com##:xpath(//*[@id="video-js-video"]/a[3])
 coinpan.com##div[class="gpe_pm_topban_code"]
