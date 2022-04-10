@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.87
+! Version: 10.00.88
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -348,6 +348,8 @@ everytime.kr###container > div.leftside:nth-child(3) > div.card:nth-child(3)
 everytime.kr###container > div.leftside:nth-child(3) > div.card:nth-child(4)
 everytime.kr###container > div.leftside:nth-child(3) > div.card:last-child
 everytime.kr###sheet
+! Inven
+inven.co.kr###topskyAd
 
 ! Coupang
 coupang.com###coupang-banner
