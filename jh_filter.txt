@@ -3,7 +3,7 @@
 ! Homepage: https://jhfilters.github.io/jh_filter/
 ! License: https://jhfilters.github.io/jh_filter/#license
 ! Expires: 1 day
-! Version: 10.00.89
+! Version: 10.00.90
 
 ! ------------------------------
 ! ----- Twitter Faster DNS -----
@@ -250,8 +250,6 @@ namu.wiki#?#article > div:matches-attr("/data-v-/"):has(> div:matches-attr("/dat
 namu.wiki#?#div:matches-attr("/data-v-/"):has(> div > div > div > div:matches-attr("/data-v-/"):matches-css(justify-content: space-between) > img[src*="/w.namu.la/s/"]:nth-ancestor(4))
 namu.wiki#?#div[class]:matches-attr("/data-v-/") > div:matches-attr("/data-v-/"):not([class]):not(:has(> a[href^="/w/"]:matches-attr("/data-v-/"))):not(:has(> a:matches-attr("/data-v-/"))):not(:contains(/.{1,}/i))
 namu.wiki##article > h1 + p ~ div[id][class]
-namu.wiki#@?#article div:has(a[href*="/w/%EB%B6%84%EB%A5%98:"]) ~ div:has(div.wiki-paragraph) ~ div:has(img[src*="w.namu.la"])
-namu.wiki###ZMC20EkSV > article > div:nth-child(7) > div:nth-child(6) > div > div > div > div > div > div:nth-child(9)
 
 ! [ Community ]
 ! Clien
